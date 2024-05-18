@@ -19,6 +19,7 @@
     background-color: rgba(9, 9, 9, 0.4);
     position: absolute;
     top: 0px;
+    
 }
 
 #main_subnavbar {
@@ -61,6 +62,24 @@
 
 #manubtn {
     color: aliceblue;
+}
+#manubar{
+    color: aliceblue;
+    font-size: 20px;
+    display: none;
+}
+#manubar_icon{
+    display:none ;
+}
+
+@media(max-width:1200px) {
+    #manubar {
+        display: block;
+    }
+    #icon_subnavbar,#main_subnavbar{
+        display: none;
+    }
+
 }
 
 /* #usericon{
@@ -188,7 +207,7 @@
     align-items: center;
 }
 
-#foot_sect1_cont{
+#foot_sect1_cont {
     color: aliceblue;
 }
 
@@ -844,7 +863,7 @@
 }
 
 #ind_sect1_img {
-    width: 80%;
+    width: 68%;
     height: auto;
     padding: 30px 30px;
     display: flex;
@@ -1006,17 +1025,20 @@
     background-color: rgb(8, 8, 8);
     padding: 130px 60px;
 }
-#Timetable_container label{
+
+#Timetable_container label {
     font-size: 16px;
     letter-spacing: 1px;
     color: orangered;
 }
-#Timetable_container span{
+
+#Timetable_container span {
     font-size: 25px;
     letter-spacing: 1px;
     font-weight: bold;
     color: rgb(220, 218, 218);
 }
+
 #timetable_box tr th {
     width: 170px;
     height: 50px;
@@ -1037,38 +1059,45 @@
     font-size: 14px;
     color: orangered;
 }
-#timetable_row_col tr td label{
+
+#timetable_row_col tr td label {
     font-size: 16px;
     font-weight: 800;
     color: aliceblue;
 }
-#timetable_row_col tr td span{
+
+#timetable_row_col tr td span {
     font-size: 10px;
     color: aliceblue;
 }
-#table_col_bg{
+
+#table_col_bg {
     background-color: rgb(31, 29, 29);
 }
-#table_bgcolor{
+
+#table_bgcolor {
     background-color: black;
 }
-#tabl_row_bg:hover , #table_col_bg:hover{
+
+#tabl_row_bg:hover,
+#table_col_bg:hover {
     background-color: orangered;
 }
 
-#table_links a{
+#table_links a {
     text-decoration: none;
     color: aliceblue;
 }
-#table_urllink_head{
+
+#table_urllink_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* ============== Contact Page ================= */
-#contact_body{
-    width:100%;
+#contact_body {
+    width: 100%;
     height: auto;
     background-color: rgb(10, 9, 9);
     padding: 50px 40px;
@@ -1076,10 +1105,12 @@
     justify-content: space-around;
     padding: 80px 20%;
 }
-#contact_sect1{
-    width:350px;
+
+#contact_sect1 {
+    width: 350px;
     height: 420px;
 }
+
 #contact_sect1_col {
     width: 230px;
     height: 80px;
@@ -1089,19 +1120,22 @@
     justify-content: space-between;
     align-items: center;
 }
-#touch_us_text label{
+
+#touch_us_text label {
     font-size: 14px;
     letter-spacing: 1px;
-    color:orangered;
+    color: orangered;
 
 }
-#touch_us_text span{
+
+#touch_us_text span {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
-    color:aliceblue;
+    color: aliceblue;
 }
-#locat_icon{
+
+#locat_icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1114,25 +1148,28 @@
     font-size: 18px;
     color: aliceblue;
 }
-#contac_sect1_cont{
+
+#contac_sect1_cont {
     color: aliceblue;
 }
 
-#cont_text{
-    width:350px;
+#cont_text {
+    width: 350px;
     height: 35px;
     background-color: transparent;
     padding-left: 15px;
     border: 1px solid rgb(95, 88, 88);
 }
-#cont_textarea{
-    width:350px;
+
+#cont_textarea {
+    width: 350px;
     height: 100px;
     background-color: transparent;
     padding-left: 15px;
 }
-#cont_submit_btn{
-    width:350px;
+
+#cont_submit_btn {
+    width: 350px;
     height: 35px;
     background-color: orangered;
     color: aliceblue;
@@ -1142,100 +1179,118 @@
 
 
 /* ====================== Team page =================== */
-#team_body{
-    width:100%;
+#team_body {
+    width: 100%;
     height: auto;
     padding: 60px 130px;
     background-color: black;
 }
-#team_appoint_btn button{
+
+#team_appoint_btn button {
     width: 200px;
     height: 40px;
     background-color: transparent;
-    border:  1px solid white;
+    border: 1px solid white;
     color: aliceblue;
 }
-#team_head{
+
+#team_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-#team_content label{
+
+#team_content label {
     font-size: 14px;
     color: orangered;
 }
-#team_content span{
+
+#team_content span {
     font-size: 25px;
     font-weight: bold;
     color: rgb(253, 253, 253);
 }
-#team_member_img{
+
+#team_member_img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
 }
-#team_member_img img{
+
+#team_member_img img {
     margin-bottom: 25px;
 }
-#team_mem_img_box{
+
+#team_mem_img_box {
     position: relative;
     width: 363px;
     height: 453px;
     border: 1px solid white;
+    margin-bottom: 40px;
 }
-#team_mem_img_box:hover ~ #team_detail_box{
+
+#team_mem_img_box:hover~#team_detail_box {
     display: block;
 }
-#team_mem_img_box img{
+
+#team_mem_img_box img {
     width: 360px;
     height: 450px;
 }
-#team_detail_box{
+
+#team_detail_box {
     width: 360px;
     height: 140px;
-    background-color: black;
+    background-color: rgba(11, 10, 10,0.8);
     position: absolute;
-    top:308px;
+    top: 309px;
     text-align: center;
+    padding-top: 20px;
     /* display: none; */
 }
-#team_detail_box label{
+
+#team_detail_box label {
     font-size: 20px;
     font-weight: 900;
     color: aliceblue;
     padding-left: 15px;
 }
-#team_detail_box span{
+
+#team_detail_box span {
     font-size: 12px;
     color: rgb(134, 136, 138);
 }
-.solcial_link{
+
+.solcial_link {
     margin-left: 100px;
 }
 
 /* ================ Blog Page ==================== */
 
-#blog_body{
+#blog_body {
     width: 100%;
     height: auto;
     padding: 50px 100px;
     background-color: black;
 }
-#Song_table_box{
+
+#Song_table_box {
     width: 100%;
     height: auto;
     margin-top: 40px;
 }
-#Song_table_box tr th{
+
+#Song_table_box tr th {
     height: 40px;
     background-color: rgb(28, 27, 27);
     color: aliceblue;
     text-align: center;
     border: 2px solid white;
 }
-#Song_table_box tr td{
+
+#Song_table_box tr td {
     height: 60px;
     font-size: 20px;
     font-weight: 800;
@@ -1244,25 +1299,29 @@
     text-align: center;
     border: 2px solid rgb(248, 246, 246);
 }
-#audio_style{
+
+#audio_style {
     width: 400px;
     height: 30px;
 }
+
 /* ============================= */
 
-#video_table_box{
+#video_table_box {
     width: 100%;
     height: auto;
     margin-top: 60px;
 }
-#video_table_box tr th{
+
+#video_table_box tr th {
     height: 40px;
     background-color: rgb(28, 27, 27);
     color: aliceblue;
     text-align: center;
     border: 2px solid white;
 }
-#video_table_box tr td{
+
+#video_table_box tr td {
     height: 300px;
     font-size: 20px;
     font-weight: 300;
@@ -1271,9 +1330,9 @@
     text-align: center;
     border: 2px solid rgb(248, 246, 246);
 }
-#video_style{
+
+#video_style {
     width: 450px;
     height: 250px;
     border: 6px solid rgb(8, 7, 7);
 }
-
