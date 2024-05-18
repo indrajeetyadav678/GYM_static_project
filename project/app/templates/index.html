@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Home{% endblock %}</title>
+</head>
+
+<body>
+    <div id="home_hero">
+        <div id="home_hero_txtbox">
+            <span id="home_hero_text1">SHAPE YOUR BODY</span><br />
+            <span id="home_hero_text2">BE <span style="color: orangered;">STRONG</span> </span><br />
+            <span id="home_hero_text3">TRAINING HARD</span><br /><br />
+            <button id="home_hero_getbtn">GET INFO</button>
+        </div>
+    </div>
+
+    <div id="index_sect2">
+        <label id="index_sect2_txt1">WHY CHOSE US?</label><br />
+        <label id="index_sect2_txt2">PUSH YOUR LIMITS FORWARD</label>
+        <div id="index_sect2_conainer">
+            <div id="index_sect2_wrapper">
+                <div id="index_sect2_img"><i class="fa-solid fa-bicycle"></i></div><br />
+                <span id="in_sect2txt1">Modern equipment</span><br />
+                <label id="in_sect2txt2"><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore
+                    facilisis.
+                </label>
+            </div>
+
+            <div id="index_sect2_wrapper">
+                <div id="index_sect2_img"><i class="fa-solid fa-bowl-food"></i></div><br />
+                <span id="in_sect2txt1">Healthy nutrition plan</span><br />
+                <label id="in_sect2txt2"><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore
+                    facilisis.
+                </label>
+            </div>
+
+            <div id="index_sect2_wrapper">
+                <div id="index_sect2_img"><i class="fa-solid fa-dumbbell"></i></div><br />
+                <span id="in_sect2txt1">Proffesponal training plan</span><br />
+                <label id="in_sect2txt2"><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore
+                    facilisis.
+                </label>
+            </div>
+
+            <div id="index_sect2_wrapper">
+                <div id="index_sect2_img"><i class="fa-solid fa-heart-pulse"></i></div><br />
+                <span id="in_sect2txt1">Unique to your needs</span><br />
+                <label id="in_sect2txt2"><br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore
+                    facilisis.
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div id="index_sect3_container">
+        <label id="index_sect2_txt1">WHY CHOSE US?</label><br />
+        <label id="index_sect2_txt2">PUSH YOUR LIMITS FORWARD</label>
+        <div id="index_sect3_wraper">
+            <div id="index_sect3_imgbox">
+                <img src="{% static '/image/class-1.jpg' %}" alt="">
+                <label id="sect3_conten1">STRENGTH</label><br />
+                <label id="sect3_conten2">WEIGHTLIFTING</label>
+            </div>
+            <div id="index_sect3_imgbox">
+                <img src="{% static '/image/class-2.jpg' %}" alt="">
+                <label id="sect3_conten1">CARDIO</label><br />
+                <label id="sect3_conten2">INDOOR CYCLING</label>
+            </div>
+            <div id="index_sect3_imgbox">
+                <img src="{% static '/image/class-3.jpg' %}" alt="">
+                <label id="sect3_conten1">STRENGTH</label><br />
+                <label id="sect3_conten2">KETTLEBELL POWER</label>
+            </div>
+        </div>
+        <div id="in_sect3_wrapper">
+            <div id="in_sect3_imgbox">
+                <img src="{% static '/image/class-4.jpg' %}" alt="">
+                <label id="sect3_conten1">CARDIO</label><br />
+                <label id="sect3_conten2">INDOOR CYCLING</label>
+            </div>
+            <div id="in_sect3_imgbox">
+                <img src="{% static '/image/class-5.jpg' %}" alt="">
+                <label id="sect3_conten1">TRAINING</label><br />
+                <label id="sect3_conten2">BOXING</label>
+            </div>
+        </div>
+
+        <div id="in_sect4_imgbx">
+            <label id="in_sect4_txt1">REGISTRATION NOW TO GET MORE DEALS</label><br /><br />
+            <label id="in_sect4_txt2">WHERE HEALTH, BEAUTY AND FITNESS MEET.</label><br /><br />
+            <button id="appoint_btn"><a href="">APPOINTMENT</a></button>
+        </div>
+
+        <div id="index_sect5_container">
+            <label id="index_sect5_txt1">OUR PLAN</label><br />
+            <label id="index_sect5_txt2">CHOOSE YOUR PRICING PLAN</label>
+            <div id="index_sect5_wraper">
+                <div id="index_sect5_imgbox">
+                    <label id="sect5_conten1">Class drop-in</label><br /><br />
+                    <label id="sect5_conten2">$ 39.0</label><br />
+                    <label id="sect5_conten3">SINGLE CLASS</label><br /><br />
+                    <label id="sect5_conten4">Free riding
+                        Unlimited equipments
+                        Personal trainer
+                        Weight losing classes
+                        Month to mouth
+                        No time restriction
+                    </label><br/><br/>
+                    <button id="appoint_btn"><a href="">ENROLL NOW</a></button>
+                </div>
+
+                <div id="index_sect5_imgbox">
+                    <label id="sect5_conten1">12 Month unlimited</label><br /><br />
+                    <label id="sect5_conten2">$ 99.0</label><br />
+                    <label id="sect5_conten3">SINGLE CLASS</label><br /><br />
+                    <label id="sect5_conten4">Free riding
+                        Unlimited equipments
+                        Personal trainer
+                        Weight losing classes
+                        Month to mouth
+                        No time restriction
+                    </label><br /><br />
+                    <button id="appoint_btn"><a href="">ENROLL NOW</a></button>
+                </div>
+
+                <div id="index_sect5_imgbox">
+                    <label id="sect5_conten1">6 Month unlimited</label><br /><br />
+                    <label id="sect5_conten2">$ 59.0</label><br />
+                    <label id="sect5_conten3">SINGLE CLASS</label><br /><br />
+                    <label id="sect5_conten4">
+                        Free riding
+                        Unlimited equipments
+                        Personal trainer
+                        Weight losing classes
+                        Month to mouth
+                        No time restriction
+                    </label><br /><br />
+                    <button id="appoint_btn"><a href="">ENROLL NOW</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="index_sect1_img">
+            <img src="{% static '/image/gallery-1.jpg' %}" alt="">
+            <img src="{% static '/image/gallery-2.jpg' %}" alt="">
+            <img src="{% static '/image/gallery-3.jpg' %}" alt="">
+            <img src="{% static '/image/gallery-4.jpg' %}" alt="">
+            <img src="{% static '/image/gallery-5.jpg' %}" alt="">
+            <img src="{% static '/image/gallery-6.jpg' %}" alt="">  
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
+{% endblock %}

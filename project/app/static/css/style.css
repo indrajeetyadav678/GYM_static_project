@@ -1,0 +1,1278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Navbar {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(9, 9, 9, 0.4);
+    position: absolute;
+    top: 0px;
+}
+
+#main_subnavbar {
+    width: 55%;
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icon_subnavbar {
+    width: 16%;
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+#com_icon {
+    height: 35px;
+}
+
+#home_hero {
+    width: 100%;
+    height: 800px;
+    background-image: url('../image/hero-1.jpg');
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+}
+
+#icon_size {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+#manubtn {
+    color: aliceblue;
+}
+
+/* #usericon{
+    color: aliceblue;
+    text-decoration: none;
+} */
+/* #usericon_btn{
+    margin-left: 10px;
+} */
+/* ================= profile box ================ */
+#login_user {
+    color: aliceblue;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#profile_box {
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    display: none;
+    background-color: rgb(228, 203, 203);
+
+}
+
+#prof_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    /* margin-left: 23%; */
+}
+
+#editpro_btn {
+    padding: 3px 10px;
+    background-color: rgb(74, 74, 139);
+}
+
+#editpro_btn a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+#usericon {
+    width: 25px;
+    /* height: 20px; */
+}
+
+/* ================  hero section fol all page ====================*/
+#herosection {
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/breadcrumb-bg.jpg');
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero_content {
+    font-size: 65px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#nabdata_path {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/* ================ Footer Section ======================== */
+#footer_container {
+    width: 100%;
+    height: auto;
+    padding: 30px 30px;
+    background-color: black;
+}
+
+#footer_sect1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 15px 20px;
+}
+
+#location_icon,
+#contact_icon,
+#Email_icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#location_icon {
+    margin-right: 15px;
+}
+
+#footer_sect1_col {
+    width: 310px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#foot_sect1_cont{
+    color: aliceblue;
+}
+
+#footer_sect2 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer_sect2_col1 {
+    width: 300px;
+    height: 220px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#footer_sociallink {
+    width: 250px;
+    height: 50px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border:1px solid rgb(240, 239, 239); */
+    padding-right: 22px;
+}
+
+#footer_sociallink li a {
+    color: aliceblue;
+}
+
+#footerhead {
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bolder;
+    /* list-style: none; */
+}
+
+#footer_sect2_col2,
+#footer_sect2_col3 {
+    list-style: none;
+}
+
+#footer_sect2_col2 li,
+#footer_sect2_col3 li {
+    margin-bottom: 10px;
+}
+
+#footer_sect2_col2 li a,
+#footer_sect2_col3 li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#footer_sect2_col4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#footer_sect2_col41 {
+    margin-top: 20px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(70, 68, 68);
+}
+
+#footer_sect3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+#footer_sect2_col4 label,
+#footer_sect2_col41 label {
+    color: aliceblue;
+}
+
+/* ============ Registartion form ======== */
+#registration_form {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 15px 30px;
+    margin: 25px 33%;
+}
+
+#form_type {
+    text-align: center;
+}
+
+#submit_btn {
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgb(46, 46, 110);
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+#submit_box {
+    text-align: center;
+}
+
+/* ============ Login form ======== */
+#login_form {
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 15px 30px;
+    margin: 120px 33%;
+}
+
+#userid_input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+/* ===================== home page ============== */
+#home_hero_txtbox {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    right: 15px;
+    padding: 25px 10px;
+    /* border: 1px solid rgb(239, 234, 234); */
+}
+
+#home_hero_text1 {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+#home_hero_text2 {
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#home_hero_text3 {
+    font-size: 55px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#home_hero_getbtn {
+    width: 100px;
+    height: 60px;
+    background-color: orangered;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+/* ====================================== */
+
+#index_sect2 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 3, 3);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#index_sect2_txt1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(245, 99, 46);
+}
+
+#index_sect2_txt2 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#index_sect2_conainer {
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#index_sect2_wrapper {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+#index_sect2_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(17, 17, 16);
+    background-color: rgba(157, 153, 153, 0.4);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(249, 88, 30);
+}
+
+#index_sect2_img:hover {
+    background-color: rgb(245, 81, 22);
+    color: aliceblue;
+}
+
+#in_sect2txt1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* ======================================= */
+
+#in_sect2txt2 {
+    color: rgb(128, 124, 124);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#index_sect3_container {
+    width: 100%;
+    height: auto;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: rgb(33, 32, 32);
+}
+
+#index_sect3_wraper {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+#index_sect3_imgbox {
+    width: 400px;
+    height: 380px;
+    background-color: rgb(12, 12, 12);
+    text-align: left;
+}
+
+/* #index_sect3_imgbox::before{
+    content: "";
+    width: 400px;
+    height: 60px 100px;
+    offset-distance:60px 100px;;
+    display: block;
+    background-color: blue;
+    position: absolute;
+} */
+#index_sect3_imgbox img {
+    width: 400px;
+    /* border-radius: 0px 0px 0px 0px; */
+}
+
+/* =========================================== */
+
+#in_sect3_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#in_sect3_imgbox {
+    width: 600px;
+    height: 530px;
+    background-color: rgb(13, 12, 12);
+    text-align: left;
+}
+
+#in_sect3_imgbox img {
+    width: 600px;
+    /* height:6500px; */
+    background-color: rgb(13, 12, 12);
+}
+
+#sect3_conten1 {
+    margin-top: 25px;
+    color: orangered;
+    padding-left: 20px;
+}
+
+#sect3_conten2 {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/* =================================================== */
+
+#in_sect4_imgbx {
+    width: 96%;
+    height: 500px;
+    background-image: url('../image/banner.jpg');
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+
+#in_sect4_txt1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#in_sect4_txt2 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#appoint_btn {
+    color: aliceblue;
+    padding: 8px 30px;
+    border: 2px solid orangered;
+    background-color: transparent;
+}
+
+#appoint_btn a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* ========================================== */
+#index_sect5_container {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+}
+
+#index_sect5_txt1 {
+    color: orangered;
+}
+
+#index_sect5_txt2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#index_sect5_wraper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    margin-top: 20px;
+}
+
+#index_sect5_imgbox {
+    width: 300px;
+    height: 500px;
+    border: 1px solid wheat;
+    padding-top: 25px;
+}
+
+#sect5_conten1 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#sect5_conten2 {
+    font-size: 56px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+#sect5_conten3 {
+    font-size: 14px;
+    color: aliceblue;
+}
+
+#sect5_conten4 {
+    font-size: 16px;
+    color: aliceblue;
+    padding: 10px 60px;
+}
+
+/* ========================= */
+#index_sect1_img {
+    width: 100%;
+    height: auto;
+}
+
+#index_sect1_img img {
+    height: 280px;
+}
+
+/* ================== About Page ====================== */
+#about_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgb(14, 14, 14);
+}
+
+#body_building,
+#trainingg,
+#fitness {
+    width: 300px;
+}
+
+#video_ads {
+    width: 710px;
+    height: 510px;
+    border: 1px solid rgb(251, 251, 251);
+}
+
+#about_score {
+    width: 710px;
+    height: 510px;
+    border: 0.5px solid rgb(249, 247, 247);
+    padding: 40px 50px;
+}
+
+#about_one {
+    color: orangered;
+}
+
+#about_two {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+#about_three {
+    font-size: 14px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+#about_tab {
+    width: 200px;
+    color: aliceblue;
+}
+
+#about_tablebx {
+    margin-top: 30px;
+}
+
+#about_tablebx tr td {
+    height: 30px;
+}
+
+/* ==================== Class Time Table ================= */
+
+#class_body {
+    width: 100%;
+    height: auto;
+    padding: 30px 15px;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+#classtable_wrapper {
+    width: 610px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+#class_head {
+    font-size: 20px;
+    font-weight: 900;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+#class_content {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+#class_sociallink {
+    width: 130px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border:1px solid rgb(240, 239, 239); */
+    /* padding-right: 10px; */
+}
+
+#class_sociallink li a {
+    font-size: 10px;
+    color: aliceblue;
+}
+
+#classcontain_flex img {
+    height: 370px;
+}
+
+#class_table_box {
+    width: 300px;
+    height: auto;
+    /* border: 1px solid white; */
+    padding: 0px 15px 10px 35px;
+}
+
+#class_one {
+    padding: 15px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#class_obt {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+#class_obt label {
+    font-size: 10px;
+    color: rgb(150, 152, 153);
+}
+
+#class_tabl_content {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#class_team_detail {
+    width: 240px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#class_team_detail tr {
+    border-bottom: 1px solid rgb(108, 103, 103);
+}
+
+#class_team_detail tr td {
+    color: rgb(123, 123, 123);
+}
+
+/* ============== class right ============= */
+#class_tablehead {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#class_tablehead_box {
+    width: 250px;
+}
+
+#class_tablehead_box tr td {
+    height: 30px;
+}
+
+#class_tablehead_box tr td a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#class_right_img {
+    width: 250px;
+    height: 180px;
+    background-image: url('../image/class-5.jpg');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    padding: 95px 12px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+#class_right_img label {
+    font-size: 14px;
+}
+
+#class_right_img span {
+    font-size: 12px;
+    color: rgb(160, 152, 152);
+}
+
+/* ========================================= */
+#class_news1 {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#class_news1 #two {
+
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+#class_news1 #two label {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#class_news1 #two span {
+    font-size: 8px;
+    color: rgb(129, 127, 127);
+}
+
+/* =============== Services page ============ */
+
+#service_body {
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ind_sect1_img {
+    width: 80%;
+    height: auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(60, 60, 60);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ind_sect1_img img {
+    width: 230px;
+    height: 200px;
+}
+
+#server_txtbox {
+    width: 230px;
+    height: 200px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+#server_txtbox label {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#server_txtbox span {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#server_txtbox a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+#server_txtbox a:hover {
+    color: orangered;
+}
+
+/* ========= Gallery Page ============ */
+
+#gallery_body {
+    width: 100%;
+    height: auto;
+    padding: 50px 25px;
+    background-color: rgb(11, 10, 10);
+}
+
+#gym_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery_img {
+    height: 300px;
+}
+
+/* ========= BMI CALCULATE Page ============ */
+
+#calculator_page_body {
+    width: 100%;
+    height: auto;
+    padding: 50px 25px;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#calpage_content {
+    color: aliceblue;
+}
+
+#calpage_content label {
+    font-size: 14px;
+    color: orangered;
+}
+
+#calpage_content span {
+    font-size: 22px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#gallery_img {
+    height: 300px;
+}
+
+#calculator_chart {
+    width: 500px;
+    height: 200px;
+}
+
+#calculator_chart tr th {
+    background-color: black;
+    border: 1px solid rgb(70, 66, 66);
+    text-align: center;
+}
+
+#calculator_chart tr td {
+    border: 1px solid rgb(70, 66, 66);
+    text-align: center;
+}
+
+/* =============================================== */
+
+#claculator_sect {
+    width: 500px;
+    height: 400px;
+    margin-top: 130px;
+}
+
+#claculator_sect label {
+    font-size: 14px;
+    color: orangered;
+}
+
+#claculator_sect span {
+    font-size: 22px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#calculator_content {
+    font-size: 12px;
+    /* font-weight: 800; */
+    color: aliceblue;
+}
+
+#cal_input {
+    width: 220px;
+    padding-left: 10px;
+}
+
+#calculate_btn {
+    padding: 6px 100px;
+    background-color: orangered;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+#calculate_form {
+    text-align: center;
+}
+
+/* =================== Classes timetable =================== */
+
+#Timetable_container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 8, 8);
+    padding: 130px 60px;
+}
+#Timetable_container label{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: orangered;
+}
+#Timetable_container span{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(220, 218, 218);
+}
+#timetable_box tr th {
+    width: 170px;
+    height: 50px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: 1px solid rgb(163, 160, 160);
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(251, 70, 4);
+}
+
+#timetable_row_col tr td {
+    width: 170px;
+    height: 100px;
+    letter-spacing: 1px;
+    border: 1px solid rgb(163, 160, 160);
+    text-align: center;
+    font-size: 14px;
+    color: orangered;
+}
+#timetable_row_col tr td label{
+    font-size: 16px;
+    font-weight: 800;
+    color: aliceblue;
+}
+#timetable_row_col tr td span{
+    font-size: 10px;
+    color: aliceblue;
+}
+#table_col_bg{
+    background-color: rgb(31, 29, 29);
+}
+#table_bgcolor{
+    background-color: black;
+}
+#tabl_row_bg:hover , #table_col_bg:hover{
+    background-color: orangered;
+}
+
+#table_links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#table_urllink_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ============== Contact Page ================= */
+#contact_body{
+    width:100%;
+    height: auto;
+    background-color: rgb(10, 9, 9);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 20%;
+}
+#contact_sect1{
+    width:350px;
+    height: 420px;
+}
+#contact_sect1_col {
+    width: 230px;
+    height: 80px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#touch_us_text label{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:orangered;
+
+}
+#touch_us_text span{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:aliceblue;
+}
+#locat_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(53, 51, 51);
+    background-color: rgb(101, 93, 93);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+#contac_sect1_cont{
+    color: aliceblue;
+}
+
+#cont_text{
+    width:350px;
+    height: 35px;
+    background-color: transparent;
+    padding-left: 15px;
+    border: 1px solid rgb(95, 88, 88);
+}
+#cont_textarea{
+    width:350px;
+    height: 100px;
+    background-color: transparent;
+    padding-left: 15px;
+}
+#cont_submit_btn{
+    width:350px;
+    height: 35px;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* ====================== Team page =================== */
+#team_body{
+    width:100%;
+    height: auto;
+    padding: 60px 130px;
+    background-color: black;
+}
+#team_appoint_btn button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border:  1px solid white;
+    color: aliceblue;
+}
+#team_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#team_content label{
+    font-size: 14px;
+    color: orangered;
+}
+#team_content span{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+}
+#team_member_img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#team_member_img img{
+    margin-bottom: 25px;
+}
+#team_mem_img_box{
+    position: relative;
+    width: 363px;
+    height: 453px;
+    border: 1px solid white;
+}
+#team_mem_img_box:hover ~ #team_detail_box{
+    display: block;
+}
+#team_mem_img_box img{
+    width: 360px;
+    height: 450px;
+}
+#team_detail_box{
+    width: 360px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top:308px;
+    text-align: center;
+    /* display: none; */
+}
+#team_detail_box label{
+    font-size: 20px;
+    font-weight: 900;
+    color: aliceblue;
+    padding-left: 15px;
+}
+#team_detail_box span{
+    font-size: 12px;
+    color: rgb(134, 136, 138);
+}
+.solcial_link{
+    margin-left: 100px;
+}
+
+/* ================ Blog Page ==================== */
+
+#blog_body{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: black;
+}
+#Song_table_box{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+#Song_table_box tr th{
+    height: 40px;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    text-align: center;
+    border: 2px solid white;
+}
+#Song_table_box tr td{
+    height: 60px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(95, 92, 99);
+    color: rgb(243, 244, 245);
+    text-align: center;
+    border: 2px solid rgb(248, 246, 246);
+}
+#audio_style{
+    width: 400px;
+    height: 30px;
+}
+/* ============================= */
+
+#video_table_box{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+#video_table_box tr th{
+    height: 40px;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    text-align: center;
+    border: 2px solid white;
+}
+#video_table_box tr td{
+    height: 300px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(95, 92, 99);
+    color: rgb(243, 244, 245);
+    text-align: center;
+    border: 2px solid rgb(248, 246, 246);
+}
+#video_style{
+    width: 450px;
+    height: 250px;
+    border: 6px solid rgb(8, 7, 7);
+}
+

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}About{% endblock %}</title>
+</head>
+
+<body>
+    <div id="herosection">
+        <div>
+            <div id="hero_content">BMI CALCULATE</div>
+            <label id="nabdata_path">Home &nbsp;&nbsp;>&nbsp;&nbsp;
+                <span style="color: rgb(242, 16, 16);">Bmi Calculate</span>
+            </label>
+        </div>
+    </div>
+    <div id="calculator_page_body">
+        <div id="calpage_content">
+            <label>CHECK YOUR BODY</label><br />
+            <span>BMI CALCULATOR CHART</span>
+            <table id="calculator_chart">
+                <tr>
+                    <th>BMI</th>
+                    <th>WEIGHT STATUS</th>
+                </tr>
+                <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                </tr>
+                <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+                <tr>
+                    <td>30.0 - and Above</td>
+                    <td>Obese</td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="claculator_sect">
+            <label>CHECK YOUR BODY</label><br />
+            <span>CALCULATE YOUR BMI</span><br /><br />
+            <p id="calculator_content">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida.
+                Risus commodo viverra maecenas accumsan
+                lacus vel facilisis.
+            </p>
+            <form action="" method="post" id="calculate_form">
+                {% csrf_token %}
+                <input id="cal_input" type="text" name="" placeholder="Height/cm" />
+                <input id="cal_input" type="text" name="" placeholder="Weight/Kg" /><br /><br />
+                <input id="cal_input" type="text" name="" placeholder="Age" />
+                <input id="cal_input" type="text" name="" placeholder="Sex" /><br /><br />
+                <input id="calculate_btn" type="submit" value="CALCULATE" />
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+{% endblock %}

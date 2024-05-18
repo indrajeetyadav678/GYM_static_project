@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Motivation Song{% endblock %}</title>
+</head>
+<body>
+    <div id="herosection">
+        <div>
+            <div id="hero_content">Motivation Song</div>
+            <label id="nabdata_path">Home &nbsp;&nbsp;>&nbsp;&nbsp;
+                <span style="color: rgb(242, 16, 16);">Motivation Song</span>
+            </label>
+        </div>
+    </div>
+
+
+    <div id="blog_body">
+        <table id="Song_table_box">
+            <thead>
+                <tr>
+                    <th>S. No.</th>
+                    <th>SONG NAME</th>
+                    <th>SONG PLAY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="head_table">
+                    <td id="sno">1.</td>
+                    <td id="song_name">Baby Doll</td>
+                    <td id="song_play"><audio src="{% static '/audio/Baby_Doll.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">2.</td>
+                    <td id="song_name">Chaar Botal</td>
+                    <td id="song_play"><audio src="{% static '/audio/Chaar_Botal.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">3.</td>
+                    <td id="song_name">Chichora Piya</td>
+                    <td id="song_play"><audio src="{% static '/audio/Chichora_Piya.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">4.</td>
+                    <td id="song_name">High Heels</td>
+                    <td id="song_play"><audio src="{% static '/audio/High_Heels.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">5.</td>
+                    <td id="song_name">Party Chale</td>
+                    <td id="song_play"><audio src="{% static '/audio/Party_Chale.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">6.</td>
+                    <td id="song_name">Saki Saki</td>
+                    <td id="song_play"><audio src="{% static '/audio/Saki_Saki.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">7.</td>
+                    <td id="song_name">Saturday Night</td>
+                    <td id="song_play"><audio src="{% static '/audio/Saturday_Night.mp3' %}" controls muted id="audio_style"></audio></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table id="video_table_box">
+            <thead>
+                <tr id="video_head">
+                    <th>S. No.</th>
+                    <th>SONG NAME</th>
+                    <th>SONG PLAY</th>
+                </tr>
+            </thead>
+            <tbody id="video_body">
+                <tr id="head_table">
+                    <td id="sno">1.</td>
+                    <td id="song_name">Dil Diyan</td>
+                    <td id="song_play"><video src="{% static '/video/Dil_Diyan.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">2.</td>
+                    <td id="song_name">Dur Wadiyon</td>
+                    <td id="song_play"><video src="{% static '/video/Dur_Wadiyon.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">3.</td>
+                    <td id="song_name">Ek Dil Ek Jaan</td>
+                    <td id="song_play"><video src="{% static '/video/Ek_Dil_Ek_Jaan.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">4.</td>
+                    <td id="song_name">Lag Ja Gale</td>
+                    <td id="song_play"><video src="{% static '/video/Lag_Ja_Gale.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">5.</td>
+                    <td id="song_name">Mohabbat Nasha</td>
+                    <td id="song_play"><video src="{% static '/video/Mohabbat_Nasha.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">6.</td>
+                    <td id="song_name">Tera Hone Laga</td>
+                    <td id="song_play"><video src="{% static '/video/Tera_Hone_Laga.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+                <tr id="head_table">
+                    <td id="sno">7.</td>
+                    <td id="song_name">तेरा पल्लू सरका</td>
+                    <td id="song_play"><video src="{% static '/video/तेरा_पल्लू_सरका.mp4' %}" controls muted id="video_style"></video></td>
+                </tr>
+            </tbody>
+        </table>
+         
+    </div>
+    
+
+</body>
+</html>
+{% endblock %}

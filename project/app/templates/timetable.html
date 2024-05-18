@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}About{% endblock %}</title>
+</head>
+
+<body>
+    <div id="herosection">
+        <div>
+            <div id="hero_content">TIME TABLE</div>
+            <label id="nabdata_path">Home &nbsp;&nbsp;>&nbsp;&nbsp;
+                <span style="color: rgb(242, 16, 16);">Classes Timetable</span>
+            </label>
+        </div>
+    </div>
+    <div id="Timetable_container">
+        <div id="table_urllink_head">
+            <div>
+                <label>FIND YOUR TIME</label><br /><br />
+                <span>FIND YOUR TIME</span><br /><br />
+            </div>
+            <div style="background-color: rgb(52, 49, 49); width:400px; height: 35px; text-align: center; padding-top: 6px;" id="table_links">
+                <a href="#">All &nbsp;&nbsp;/</a>
+                <a href="#">Fitness tips &nbsp;&nbsp;/</a>
+                <a href="#"> Motivation &nbsp;&nbsp;/</a>
+                <a href="#">Workout</a>
+            </div>
+        </div>
+        <table>
+            <thead id="timetable_box">
+                <tr>
+                    <th>Time/Day</th>
+                    <th>MONDAY</th>
+                    <th>TUESDAY</th>
+                    <th>WEDNESDAY</th>
+                    <th>THUSDAY</th>
+                    <th>FRIDAY</th>
+                    <th>SATURDAY</th>
+                    <th>SUNDAY</th>
+                </tr>
+            </thead>
+            <tbody id="timetable_row_col">
+                <tr>
+                    <td id="table_bgcolor">6.00am - 8.00am</td>
+                    <td id="tabl_row_bg">
+                        <label>WEIGHT LOOSE</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>CARDIO</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>YOGA</label><br />
+                        <span>Keaf Shen</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>FITNESS</label><br />
+                        <span>Kimberly Stone</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label></label><br />
+                        <span></span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>BOXING</label><br />
+                        <span>Rachel Adam</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>BODY BUILDING</label><br />
+                        <span>Robert Cage</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table_bgcolor">10.00am - 12.00am</td>
+                    <td id="table_col_bg">
+                        <label></label><br />
+                        <span></span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>FITNESS</label><br />
+                        <span>Kimberly Stone</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>WEIGHT LOOSE</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>CARDIO</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>BODY BUILDING</label><br />
+                        <span>Robert Cage</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>KARATE</label><br />
+                        <span>Donald Grey</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label></label><br />
+                        <span></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table_bgcolor">5.00pm - 7.00pm</td>
+                    <td id="tabl_row_bg">
+                        <label>BOXING</label><br />
+                        <span>Rachel Adam</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>KARATE</label><br />
+                        <span>Donald Grey</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>BODY BUILDING</label><br />
+                        <span>Robert Cage</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label></label><br />
+                        <span></span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>YOGA</label><br />
+                        <span>Keaf Shen</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>CARDIO</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>FITNESS</label><br />
+                        <span>Kimberly Stone</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table_bgcolor">7.00pm - 9.00pm</td>
+                    <td id="table_col_bg">
+                        <label>CARDIO</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label></label><br />
+                        <span></span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>BOXING</label><br />
+                        <span>Rachel Adam</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>YOGA</label><br />
+                        <span>Keaf Shen</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>KARATE</label><br />
+                        <span>Donald Grey</span>
+                    </td>
+                    <td id="tabl_row_bg">
+                        <label>BOXING</label><br />
+                        <span>Rachel Adam</span>
+                    </td>
+                    <td id="table_col_bg">
+                        <label>Rachel Adam</label><br />
+                        <span>RLefew D. Loee</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+</body>
+
+</html>
+{% endblock %}

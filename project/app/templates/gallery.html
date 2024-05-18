@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}About{% endblock %}</title>
+</head>
+<body>
+    <div id="herosection">
+        <div>
+            <div id="hero_content">GALLERY</div>
+            <label id="nabdata_path">Home &nbsp;&nbsp;>&nbsp;&nbsp;
+                <span style="color: rgb(242, 16, 16);">Gallery</span>
+            </label>
+        </div>
+    </div>
+    <div id="gallery_body">
+
+ <div id="gym_gallery">
+      <img src="{% static '/image/class-1.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/class-2.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/class-3.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/class-4.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/class-5.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/yoga1.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/gallery-1.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/gallery-2.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/gallery-3.jpg' %}" id="gallery_img" alt="">
+      <img src="{% static '/image/gallery-4.jpg' %}" id="gallery_img" alt="">
+ </div>
+
+
+    </div>
+</body>
+</html>
+{% endblock %}

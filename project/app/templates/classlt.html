@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}About{% endblock %}</title>
+</head>
+
+<body>
+    <div id="herosection">
+        <div>
+            <div id="hero_content">CLASSES TIME TABLE</div>
+            <label id="nabdata_path">Home &nbsp;&nbsp;>&nbsp;&nbsp;
+                <span style="color: rgb(242, 16, 16);">Classes Timetable</span>
+            </label>
+        </div>
+    </div>
+
+    <div id="class_body">
+        <div id="classtable_wrapper">
+            <img src="{% static '/image/yoga1.jpg' %}" alt="">
+
+            <label id="class_head">BODY BUIDING</label><br /><br />
+            <label id="class_content">
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure
+                Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua
+                accusantium doloremque laudantium. Excepteur
+                sint occaecat cupidatat non proident sculpa.
+                incididunt ut labore et dolore magna aliqua
+                accusantium doloremque laudantium. Excepteur
+                sint occaecat cupidatat non proident sculpa.
+            </label>
+            <label id="class_head">TRAINER</label><br /><br />
+            <label id="class_content">
+                incididunt ut labore et dolore magna aliqua
+                accusantium doloremque laudantium. Excepteur
+                sint occaecat cupidatat non proident sculpa.
+                incididunt ut labore et dolore magna aliqua
+                accusantium doloremque laudantium. Excepteur
+                sint occaecat cupidatat non proident sculpa.
+            </label>
+            <div id="classtable_wrapper">
+                <div id="classcontain_flex">
+                    <img src="{% static '/image/team-1.jpg' %}" alt="">
+                </div>
+                <div id="class_table_box">
+                    <div id="class_one">
+                        <div id="class_obt">
+                            Athart Rachel
+                            <label>GYM TRAINER</label>
+                        </div>
+                        <ul id="class_sociallink">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <label id="class_tabl_content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua viverra maecenas lacus vel facilisis.
+                    </label>
+                    <table id="class_team_detail">
+                        <tr>
+                            <td>Age</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>Weight</td>
+                            <td>148lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Height</td>
+                            <td>10' 2`</td>
+                        </tr>
+                        <tr>
+                            <td>Occupation</td>
+                            <td>no-founder</td>
+                        </tr>
+                    </table>
+                    <label id="class_tabl_content">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua viverra maecenas lacus vel facilisis.
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div id="classtab_wrapper">
+            <div id="class_tablehead">CATEGORIES</div>
+            <table id="class_tablehead_box">
+                <tr>
+                    <td><a href="#">Yoga</a></td>
+                    <td><a href="#">12</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Running</a></td>
+                    <td><a href="#">32</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Weightloss</a></td>
+                    <td><a href="#">86</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Cario</a></td>
+                    <td><a href="#">25</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Body Building</a></td>
+                    <td><a href="#">36</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Nutrition</a></td>
+                    <td><a href="#">15</a></td>
+                </tr>
+            </table>
+            <div id="class_right_img">
+                <label>
+                    This Japanese Way of 
+                    Making Iced Coffee Is a Game....
+                </label>
+                <span>
+                    Aug 20 2018 | 30k Comment
+                </span>
+            </div>
+            <div id="class_news1">
+                <div id="one">
+                    <img src="https://themewagon.github.io/gymlife/img/letest-blog/latest-2.jpg" alt="">
+                </div>
+                <div id="two">
+                    <label>Grilled Potato and Green Bean Salad</label>
+                    <span>Aug 15, 2019</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
+{% endblock %}
